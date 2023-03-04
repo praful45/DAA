@@ -5,6 +5,7 @@
 #include <vector>
 #include <set>
 #include <cmath>
+#include <algorithm>
 using namespace std;
 
 void vertex_cover_bruteforce(set<int> vertices, set<pair<int, int> > edges) {
